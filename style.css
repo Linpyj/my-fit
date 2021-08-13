@@ -1,0 +1,32 @@
+/* .title {
+  font-size: 10px;
+} */
+
+li {
+  font-size: 13px;
+  display: block;
+  padding-top: 10px;
+}
+
+/* スマホ版 */
+/* @media screen and (max-width: 575.98px) { */
+  .container {
+    width: 100%;
+  }
+  /* .card {
+    border-radius: 100px;
+    overflow: hidden;
+  } */
+ /* } */
+
+ /* PC版 */
+@media screen and (min-width: 576px) {
+  .container {
+    width: 30%;
+    /* display:none; */
+  }
+  /* .card {
+    border-radius: 50%;
+    overflow: hidden;
+  } */
+ }
